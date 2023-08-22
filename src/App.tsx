@@ -1,10 +1,11 @@
 import "./App.css";
+import { Todolist } from "./Todolist";
 
 function App() {
   return (
-    <>
-      <h1 className="text-sm font-bold underline">Hello world!</h1>
-    </>
+    <div className="App">
+      <Todolist />
+    </div>
   );
 }
 
